@@ -1,0 +1,25 @@
+#searchContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+#searchInput {
+  width: 300px;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+#searchButton {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+#results {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+#results img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
