@@ -4,6 +4,7 @@ This repository contains an Image Search Application that leverages OpenAI's [CL
 
 ## Demo
 
+![Demo](demo.png)
 ![Demo](demo.gif)
 
 ## Table of Contents
