@@ -39,9 +39,9 @@ def index(image_dir_path):
 
     index = faiss.IndexFlatIP(image_features.shape[1])
     index.add(image_features)
-    write_index(index, "index.faiss")
+    write_index(index, "static/index.faiss")
 
-    with open("image_paths.json", "w") as f:
+    with open("static/image_paths.json", "w") as f:
         json.dump(image_paths, f)
 
 

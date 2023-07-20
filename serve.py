@@ -17,3 +17,7 @@ def search():
     app = App()
     results = app.search(search_query, results=5)
     return results
+
+
+if __name__ == "__main__":
+    flask_app.run(port=5000)

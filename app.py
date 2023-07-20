@@ -13,8 +13,8 @@ class App:
         self.model, _ = clip.load("ViT-B/32", device=self.device)
         self.model.eval()
 
-        self.index = read_index("index.faiss")
-        with open("image_paths.json") as f:
+        self.index = read_index("static/index.faiss")
+        with open("static/image_paths.json") as f:
             self.image_paths = json.load(f)
 
     def search(self, search_text, results=1):
